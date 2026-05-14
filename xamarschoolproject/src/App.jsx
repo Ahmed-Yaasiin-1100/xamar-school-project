@@ -1,10 +1,10 @@
 import React from 'react'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { BrowserRouter, Routes , Route } from 'react-router-dom'
-import Login from './Login'
+import Login from './Login.jsx'
 import "./App.css"
-import Home from "./header/Home"
-import Help from './header/Help';
+import Home from "./header/Home.jsx"
+import Help from './header/Help.jsx';
 import Dashboard from './Dashboard/Dashboard.jsx'
 import Students from './Dashboard/Students.jsx';
 
