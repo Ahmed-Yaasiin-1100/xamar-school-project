@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.header .logo{
+    display: flex;
+}
+.header .logo .image{
+    width: 18%;
+    
+}
+.header .logo .image img{
+    width: 100%;
+}
+.header .logo h2{
+    font-size: 2em;
+    margin-top: 22px;
+
+}
+.header .logo span{
+    color: #3b82f6;
+}
+
+.header .nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header .nav ul li a:hover{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.main{
+    padding: 50px 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .allmain{
+    padding: 30px 100px;
+    background-color: white;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.main .allmain h3{
+    text-align: center;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.main .allmain .inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+
+.main .allmain .inputs .input label{
+    font-size: 1.3em;
+}
+.main .allmain .inputs input{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding-left: 10px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #F8FAFC;
+}
+
+
+/* dshboard */
+
+.dashboard{
+    width: 20%;
+}
+
+.dashboard .dashboard-all{
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.dashboard .dashboard-all .dashboard-logo{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #F8FAFC;
+    font-size: 1.2em;
+}
+.dashboard .dashboard-all .dashboard-logo h3{
+    color: #3b82f6;
+    font-size: 1.3em;
+}
+
+.dashboard .dashboard-all .dashboard-links{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard .dashboard-all .dashboard-links .dashboard-item{
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    color: #F8FAFC;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    margin:10px;
+    gap: 10px;
+}
+.dashboard .dashboard-all .dashboard-links .dashboard-item .link{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 22px;
+    color: #F8FAFC;
+}
+/* .dashboard .dashboard-all .dashboard-links .dashboard-item :active{ */
+    /* background-color: #3B82F6;
+    width: 60%;
+    padding: 10px;
+    border-radius: 6px;
+    color: #F8FAFC; */
+    
+/* } */
+.dashboard .dashboard-all .dashboard-links  .last{
+    margin-top: 130px;
+}
+
+.dashboard .dashboard-all .dashboard-links :hover{
+    color: white;
+    background: #1f2937;
+    border-radius: 10px;
+}
+
+
+
+/* header dashboars */
+.header-dashboard{
+    position: absolute;
+    width: 70%;
+    top: 0px;
+    left: 300px;
+}
+
+.header-dashboard .header-all{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-dashboard .header-all .search input{
+    border: none;
+    outline: none;
+    width: 330px;
+    height: 40px;
+    box-shadow:0px 10px 30px  rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: #535353;
+}
+.header-dashboard .header-all .search ::placeholder{
+    padding-left: 20px;
+}
+
+
+
+/* total */
+.total{
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    width: 75%;
+}
+
+.total .total-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.total .total-all .students-total{
+    background-color: #1E293B;
+    width: 25%;
+    height: 150px;
+    color: #F8FAFC;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 20px;
+
+   
+}
+
+.total .total-all .student{
+    background:linear-gradient(135deg, #FF6B6B, #FF8E53);
+    font-weight: 900;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.total .total-all .teacher{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.total .total-all .active{
+    background:linear-gradient(135deg, #11998e, #38ef7d);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    
+}
+
+.total .total-all .fees{
+    background:linear-gradient(135deg, #00c6ff, #0072ff);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    /* color: #333; */
+}
+
+.student h4, .teacher h4 , .active h4 , .fees h4{
+    /* margin-left: 20px; */
+    font-size: 1.4em;
+}
+.student h5 , .teacher h5 , .active h5 , .fees h5{
+    /* margin-left: 20px; */
+    font-size: 1.3em;
+    /* font-weight: 900; */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+/* .student .imoji , .teacher .imoji , .active .imoji , .fees .imoji{
+    
+} */
