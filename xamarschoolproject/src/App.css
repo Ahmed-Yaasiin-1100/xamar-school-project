@@ -286,3 +286,37 @@
 /* .student .imoji , .teacher .imoji , .active .imoji , .fees .imoji{
     
 } */
+
+
+/* students page  */
+
+.table{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+
+}
+
+.table table{
+    border-collapse: collapse;
+     background-color: #f5fbff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th,td{
+    padding: 17px 50px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.08)
+}
+td{
+    font-size: 16px;
+}
+th{
+    background-color: #1572FE;
+    color: #fff;
+    font-size: 1.1em;
+    
+
+}
