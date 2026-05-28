@@ -1,13 +1,9 @@
 import React from 'react'
 import SideDashboard from './SideDashboard'
-import Dashboard from './Dashboard'
-
-
-
+// import Dashboard from './Dashboard'
+import TotalStudents from './TotalStudents'
 
 function Students() {
-
-
   let students = [
     {
       id : "C126",
@@ -32,13 +28,11 @@ function Students() {
     }
 
   ]
-
-  
   return (
     <>
      <SideDashboard/>
 
-     
+      <TotalStudents total={students.length}/>
       
       <div className="table">
       <table>

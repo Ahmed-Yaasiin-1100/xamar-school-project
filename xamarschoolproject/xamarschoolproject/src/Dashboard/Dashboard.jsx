@@ -14,11 +14,7 @@ import { FaMoneyCheckAlt } from "react-icons/fa";
 import { BrowserRouter , Routes , Route, Router, Link } from 'react-router-dom';
 import SideDashboard from './SideDashboard';
 
-
-
-
 function Dashboard() {
-    
   return (
     <>
   
@@ -45,7 +41,7 @@ function Dashboard() {
             <div className="students-total student">
                 <PiStudent  className = "imoji" size={50}/>
                 <h4>Total Students</h4>
-                <h5>100</h5>
+                <h5>1000</h5>
             </div>
             <div className="students-total teacher">
                 <LiaChalkboardTeacherSolid className = "imoji" size={50}/>
